@@ -21,5 +21,6 @@ end
 
 #now_serving
 def now_serving(line_array)
-  
+  if line_array.size == 0
+    puts "The "
 end
