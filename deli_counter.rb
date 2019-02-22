@@ -16,4 +16,5 @@ end
 #take_a_number
 def take_a_number(line_array, name)
   line_array << name
+  puts "Welsome, #{name}. You are number #{line_array.size} in line."
 end
