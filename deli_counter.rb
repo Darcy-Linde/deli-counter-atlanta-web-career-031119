@@ -18,3 +18,6 @@ def take_a_number(line_array, name)
   line_array << name
   puts "Welcome, #{name}. You are number #{line_array.size} in line."
 end
+
+#now_serving
+def now_serving(line_array)
