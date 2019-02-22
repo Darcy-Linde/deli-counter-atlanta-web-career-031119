@@ -9,5 +9,6 @@ def line(array)
     array.each_with_index do |person, index|
       str + " #{index + 1}. #{person}"
     end
+    puts str
   end
 end
