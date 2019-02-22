@@ -15,5 +15,5 @@ end
 
 #take_a_number
 def take_a_number(line_array, name)
-  line_array.push(name)
+  line_array << name
 end
